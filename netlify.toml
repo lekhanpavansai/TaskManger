@@ -1,0 +1,18 @@
+[build]
+  base = "client"
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  VITE_AUTH_API_URL = "https://csyibgv5y0.execute-api.eu-north-1.amazonaws.com/api/auth/signin"
+
+[[redirects]]
+  from = "/api/*"
+  to = "https://csyibgv5y0.execute-api.eu-north-1.amazonaws.com/api/:splat"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

@@ -8,9 +8,11 @@ import Dashboard from './pages/Dashboard';
 import TaskDetail from './pages/TaskDetail';
 import NotFound from './pages/NotFound';
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, '') || undefined;
+
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <AuthProvider>
         <TaskProvider>
           <Routes>

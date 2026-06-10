@@ -5,7 +5,7 @@ A full-stack task management web app with user authentication, kanban-style dash
 ## Links
 
 - **GitHub Repository:** https://github.com/lekhanpavansai/TaskManger
-- **Live Demo:** _(deploy URL will be added after deployment)_
+- **Live Demo:** https://lekhanpavansai.github.io/TaskManger/
 
 ## Tech Stack
 
