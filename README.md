@@ -7,10 +7,16 @@ A full-stack task management web app with user authentication, kanban-style dash
 - **GitHub Repository:** https://github.com/lekhanpavansai/TaskManger
 - **Live Demo:** https://lekhanpavansai.github.io/TaskManger/
 - **Download Source (ZIP):** https://github.com/lekhanpavansai/TaskManger/archive/refs/heads/main.zip
+- **Netlify Deploy (alternative):** https://app.netlify.com/start/deploy?repository=https://github.com/lekhanpavansai/TaskManger
 
-### Enable Live Demo (one-time)
+### Enable Live Demo (one-time, ~30 seconds)
 
-If the live URL shows 404, open your repo **Settings → Pages**, set **Source** to **Deploy from a branch**, choose branch **`gh-pages`** and folder **`/ (root)`**, then save.
+The app is already built and pushed to the `gh-pages` branch. To activate the live URL:
+
+1. Open **Settings → Pages** in the GitHub repo
+2. Under **Build and deployment**, set **Source** to **Deploy from a branch**
+3. Select branch **`gh-pages`**, folder **`/ (root)`**, then click **Save**
+4. Wait 1–2 minutes, then open https://lekhanpavansai.github.io/TaskManger/
 
 ## Tech Stack
 
