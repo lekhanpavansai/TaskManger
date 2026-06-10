@@ -6,6 +6,11 @@ A full-stack task management web app with user authentication, kanban-style dash
 
 - **GitHub Repository:** https://github.com/lekhanpavansai/TaskManger
 - **Live Demo:** https://lekhanpavansai.github.io/TaskManger/
+- **Download Source (ZIP):** https://github.com/lekhanpavansai/TaskManger/archive/refs/heads/main.zip
+
+### Enable Live Demo (one-time)
+
+If the live URL shows 404, open your repo **Settings → Pages**, set **Source** to **Deploy from a branch**, choose branch **`gh-pages`** and folder **`/ (root)`**, then save.
 
 ## Tech Stack
 
